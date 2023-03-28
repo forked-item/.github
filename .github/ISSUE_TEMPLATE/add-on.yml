@@ -1,0 +1,19 @@
+name: Add on my Repo.
+description: fork my repositroy and showcase it on your organization
+title: "Please fork my repo"
+labels: [showcase]
+body:
+  - type: input
+    id: Repo Link
+    attributes:
+      label: Repository Link
+      placeholder: Insert your repository link here
+    validations:
+      required: true
+  - type: textarea
+    id: Additional
+    attributes:
+      label: Description 
+      description: Describe your project
+    validations:
+      required: true
