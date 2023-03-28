@@ -1,0 +1,12 @@
+name: Removal  .
+description: Remove my project  
+title: "Kindly remove my project"
+labels: [removal]
+body:
+  - type: input
+    id: RepoLink
+    attributes:
+      label: Repository Link
+      placeholder: Insert your repository link here
+    validations:
+      required: true
