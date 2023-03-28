@@ -4,7 +4,7 @@ title: "Please fork my repo"
 labels: [showcase]
 body:
   - type: input
-    id: Repo Link
+    id: RepoLink
     attributes:
       label: Repository Link
       placeholder: Insert your repository link here
